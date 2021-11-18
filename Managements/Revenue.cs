@@ -13,7 +13,7 @@ namespace BookStoreManagement.Managements
 {
     public partial class Revenue : UserControl
     {
-        string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+        string con_str = "Data Source=THANGPC;Initial Catalog = BOOK_MANAGEMENT; User ID = sa; Password=123456";
         Connect.connectDB db = new Connect.connectDB();
 
         public Revenue()

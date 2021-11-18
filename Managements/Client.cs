@@ -14,6 +14,8 @@ namespace BookStoreManagement.Managements
     public partial class Client : UserControl
     {
         Connect.connectDB db = new Connect.connectDB();
+
+        string con_str = "Data Source=THANGPC;Initial Catalog = BOOK_MANAGEMENT; User ID = sa; Password=123456";
         public Client()
         {
             InitializeComponent();
@@ -83,7 +85,7 @@ namespace BookStoreManagement.Managements
             {
                 // Thực thi truy vấn insert
                 // Bước 1: Tạo kết nối
-                string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+               
 
                 SqlConnection conn = new SqlConnection(con_str);
                 // Bước 2: Mở kết nối
@@ -122,7 +124,7 @@ namespace BookStoreManagement.Managements
             {
                 // Thực thi truy vấn insert
                 // Bước 1: Tạo kết nối
-                string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+         
                 SqlConnection conn = new SqlConnection(con_str);
                 // Bước 2: Mở kết nối
                 conn.Open();
@@ -155,7 +157,7 @@ namespace BookStoreManagement.Managements
             {
                 // Thực thi truy vấn insert
                 // Bước 1: Tạo kết nối
-                string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+              
 
                 SqlConnection conn = new SqlConnection(con_str);
                 // Bước 2: Mở kết nối

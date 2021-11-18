@@ -15,6 +15,7 @@ namespace BookStoreManagement.Managements
         public partnerManagement()
         {
             InitializeComponent();
+            pnPartner.Controls.Add(new Client());
         }
 
         private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)

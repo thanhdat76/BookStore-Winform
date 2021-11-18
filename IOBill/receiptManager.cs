@@ -15,6 +15,7 @@ namespace BookStoreManagement.IOBill
         public receiptManager()
         {
             InitializeComponent();
+            panelReceipt.Controls.Add(new Receipt());
         }
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)

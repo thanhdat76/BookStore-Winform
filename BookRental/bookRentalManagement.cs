@@ -15,6 +15,7 @@ namespace BookStoreManagement.BookRental
         public bookRentalManagement()
         {
             InitializeComponent();
+            pnShowBookRental.Controls.Add(new BBookRental());
         }
 
         private void tsmPhieuTS_Click(object sender, EventArgs e)

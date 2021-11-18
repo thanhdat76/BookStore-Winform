@@ -268,6 +268,12 @@
     <Compile Include="Managements\employeeManager.Designer.cs">
       <DependentUpon>employeeManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Managements\GiftManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Managements\GiftManagement.Designer.cs">
+      <DependentUpon>GiftManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Managements\partnerManagement.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -288,6 +294,7 @@
     </Compile>
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Distributorcs.cs" />
+    <Compile Include="Models\Gift.cs" />
     <Compile Include="Models\MClient.cs" />
     <Compile Include="Models\MRevenua.cs" />
     <Compile Include="Models\Staff.cs" />
@@ -354,6 +361,9 @@
     <EmbeddedResource Include="Managements\employeeManager.resx">
       <DependentUpon>employeeManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Managements\GiftManagement.resx">
+      <DependentUpon>GiftManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Managements\partnerManagement.resx">
       <DependentUpon>partnerManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -404,6 +414,11 @@
     <Folder Include="Resources\icons\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\images\1.jpg" />
+    <Content Include="Resources\images\2.jpg" />
+    <Content Include="Resources\images\3.jpg" />
+    <Content Include="Resources\images\4.jpg" />
+    <Content Include="Resources\images\5.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

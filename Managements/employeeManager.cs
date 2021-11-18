@@ -15,6 +15,7 @@ namespace BookStoreManagement.Managements
         public employeeManager()
         {
             InitializeComponent();
+            panelStaff.Controls.Add(new Staff());
         }
 
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)

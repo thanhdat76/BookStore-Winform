@@ -15,6 +15,7 @@ namespace BookStoreManagement.Managements
         public bookManagement()
         {
             InitializeComponent();
+            pnBookManagement.Controls.Add(new bookStore());
         }
 
         private void sáchToolStripMenuItem_Click(object sender, EventArgs e)

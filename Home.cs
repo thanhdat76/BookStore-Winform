@@ -20,6 +20,9 @@ namespace BookStoreManagement
         public Home()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+            pictureBox2.Image = Image.FromFile("C:\\Users\\Admin\\OneDrive\\Pictures\\Saved Pictures\\backgroundHome.gif");
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
 
@@ -77,6 +80,15 @@ namespace BookStoreManagement
                 ctrl.Dispose();
             }
             panelShow.Controls.Add(new Revenue());
+        }
+
+        private void buttonQT_Click(object sender, EventArgs e)
+        {
+            foreach (Control ctrl in panelShow.Controls)
+            {
+                ctrl.Dispose();
+            }
+            panelShow.Controls.Add(new GiftManagement());
         }
     }
 }
