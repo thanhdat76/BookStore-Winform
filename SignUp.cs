@@ -16,5 +16,13 @@ namespace BookStoreManagement
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login frm = new Login();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

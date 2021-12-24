@@ -66,9 +66,10 @@ namespace BookStoreManagement
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            SignUp frm = new SignUp();
-            frm.Show();
             this.Hide();
+            SignUp frm = new SignUp();
+            frm.ShowDialog();
+            this.Close();
         }
     }
 }
