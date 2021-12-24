@@ -24,7 +24,7 @@ namespace BookStoreManagement
             try
             {
                 // Bước 1: Khởi tạo kết nối
-                string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+                string con_str = "Data Source=DESKTOP-01B5JNH;Initial Catalog=BOOK_MANAGEMENT;Persist Security Info=True;User ID=sa; Password=123456;";
                 SqlConnection conn = new SqlConnection(con_str);
                 // Bước 2: Mở kết nối
                 conn.Open();

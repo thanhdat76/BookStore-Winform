@@ -78,5 +78,14 @@ namespace BookStoreManagement
             }
             panelShow.Controls.Add(new Revenue());
         }
+
+        private void btn_music_Click(object sender, EventArgs e)
+        {
+            foreach (Control ctl in panelShow.Controls)
+            {
+                ctl.Dispose();
+            }
+            panelShow.Controls.Add(new Music());
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace BookStoreManagement.IOBill
     public partial class billList : UserControl
     {
         Connect.connectDB db = new Connect.connectDB();
-        string con_str = "Data Source=DESKTOP-V2HKTR2\\SQLEXPRESS; Initial Catalog=BOOK_MANAGEMENT; User ID=sa; Password=1;";
+        string con_str = "Data Source=DESKTOP-01B5JNH;Initial Catalog=BOOK_MANAGEMENT;Persist Security Info=True;User ID=sa; Password=123456;";
 
         public billList()
         {
